@@ -1,0 +1,16 @@
+.heading{
+    color:black;
+    font-size: 55px;
+    margin-top: 250px;
+    margin-left: 300px;
+   
+}
+.content{
+    color: blueviolet;
+    font-size: 18px;
+    margin-left: 200px;
+   margin-top: 50px;
+}
+.container{
+    height: 800px;
+}
