@@ -1,0 +1,28 @@
+.container{
+    height: 600px;
+    background-color: rgb(15, 15, 59);
+    color: white;
+    font-size: 25px;
+}
+.heading {
+    color: white;
+    margin-left: 200px;
+}
+button{
+    border: solid 0px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 650px;
+}
+.number{
+    margin-top: 50px;
+    margin-left: 650px;
+}
+.email{
+    margin-left: 650px;
+}
+.facebook{
+    margin-left: 650px;
+}

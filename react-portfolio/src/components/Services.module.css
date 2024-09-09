@@ -1,0 +1,55 @@
+.wrapper {
+    position: relative;           /* Relative positioning for the wrapper */
+  }
+  
+  .heading {
+    position: absolute;           /* Absolute positioning for the heading */
+    top: 20px;                    /* Adjust as needed */
+    left: 50%;                    /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    margin: 0;                    /* Remove default margins */
+    font-size: 2rem;              /* Adjust font size as needed */
+  }
+  
+  .container {
+    display: flex;                /* Enable Flexbox layout */
+    flex-direction: row;          /* Arrange cards in a row */
+    justify-content: center;      /* Center cards horizontally */
+    align-items: center;          /* Center cards vertically */
+    padding: 20px; 
+    height: 400px;                /* Set the height of the container */
+    gap: 20px;                    /* Add space between cards */
+    margin-top: 60px;             /* Adjust margin-top to leave space for the heading */
+  }
+  
+  .card {
+    border: 1px solid #ddd;       /* Add border for visual separation */
+    border-radius: 8px;           /* Round the corners of the card */
+    padding: 20px;                /* Add padding inside the card */
+    background-color: #fff;       /* Set background color */
+    height: 270px;                /* Set height of card */
+    width: 250px; 
+    margin-top: 70px;                /* Set width of card */
+  }
+  
+ 
+  
+  .cardtitle {
+    font-size: 1.25rem;           /* Set font size for title */
+    margin-bottom: 10px;          /* Add space below title */
+  }
+  
+  .cardsubtitle {
+    font-size: 1rem;              
+    color: whitesmoke;            /* Adjust text color */
+  }
+  
+  .cardtext {
+    font-size: 0.875rem;          /* Set font size for text */
+    color: #333;                  /* Set color for text */
+  }
+  .backend{
+    height: 30px;
+    width: 40px;
+   
+  }

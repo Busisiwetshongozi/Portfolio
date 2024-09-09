@@ -1,0 +1,32 @@
+/* ListGroup.module.css */
+
+.container {
+    padding: 20px;
+    background-color: aliceblue;
+  }
+  
+  .title {
+    text-align: center;
+    color: #343a40;
+  }
+  
+  .listGroup {
+    background-color: aliceblue;
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-align: right; /* Align inline-block items to the right */
+  }
+  
+  .listItem {
+    display: inline-block; /* Keep items inline-block */
+    background-color: aliceblue;
+    color: black; /* Text color */
+    margin: 0 5px 5px 0; /* 5px space between items horizontally and below */
+    padding: 5px;
+    width: 200px; /* Fixed width */
+  }
+  
+  
+  
+  
