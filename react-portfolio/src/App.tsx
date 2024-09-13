@@ -3,14 +3,18 @@ import ListGroup from './components/ListGroup';
 import About from './components/About';
 import Contact from './components/Contact'
 import Services from './components/Services';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div>
       <ListGroup />
       <About />
-      <Contact/>
       <Services/>
+      <Projects/>
+      <Contact/>
+     
+     
     </div>
   );
 }

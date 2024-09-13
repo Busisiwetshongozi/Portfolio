@@ -53,3 +53,22 @@
     width: 40px;
    
   }
+  .contain {
+    display: flex;                /* Enable Flexbox layout */
+    flex-direction: row;          /* Arrange cards in a row */
+    justify-content: center;      /* Center cards horizontally */
+    align-items: center;          /* Center cards vertically */
+    padding: 60px; 
+    height: 800px;                /* Set the height of the container */
+    gap: 20px;                    /* Add space between cards */
+    margin-top: 60px;             /* Adjust margin-top to leave space for the heading */
+  }
+  .cards {
+    border: 1px solid #ddd;       /* Add border for visual separation */
+    border-radius: 8px;           /* Round the corners of the card */
+    padding: 20px;                /* Add padding inside the card */
+    background-color: #fff;       /* Set background color */
+    height: 450px;                /* Set height of card */
+    width: 250px; 
+    margin-top: 70px;                /* Set width of card */
+  }
