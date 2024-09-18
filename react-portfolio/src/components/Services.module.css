@@ -8,7 +8,8 @@
     left: 50%;                    /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     margin: 0;                    /* Remove default margins */
-    font-size: 2rem;              /* Adjust font size as needed */
+    font-size: 2rem;
+    color: white;              /* Adjust font size as needed */
   }
   
   .container {
@@ -17,9 +18,10 @@
     justify-content: center;      /* Center cards horizontally */
     align-items: center;          /* Center cards vertically */
     padding: 20px; 
-    height: 400px;                /* Set the height of the container */
+    height: 600px;                /* Set the height of the container */
     gap: 20px;                    /* Add space between cards */
-    margin-top: 60px;             /* Adjust margin-top to leave space for the heading */
+     
+    background: linear-gradient(#004346, #1c2541);           /* Adjust margin-top to leave space for the heading */
   }
   
   .card {
@@ -41,7 +43,7 @@
   
   .cardsubtitle {
     font-size: 1rem;              
-    color: whitesmoke;            /* Adjust text color */
+    color: black;            /* Adjust text color */
   }
   
   .cardtext {
@@ -61,14 +63,16 @@
     padding: 60px; 
     height: 800px;                /* Set the height of the container */
     gap: 20px;                    /* Add space between cards */
-    margin-top: 60px;             /* Adjust margin-top to leave space for the heading */
+    margin-top: 60px; 
+              /* Adjust margin-top to leave space for the heading */
   }
   .cards {
     border: 1px solid #ddd;       /* Add border for visual separation */
     border-radius: 8px;           /* Round the corners of the card */
     padding: 20px;                /* Add padding inside the card */
-    background-color: #fff;       /* Set background color */
+    background-color: #4e1e1e;       /* Set background color */
     height: 450px;                /* Set height of card */
     width: 250px; 
     margin-top: 70px;                /* Set width of card */
   }
+

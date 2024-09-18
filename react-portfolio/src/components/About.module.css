@@ -16,8 +16,8 @@ margin-top: 150px;
    
 }
 .container{
-    height: 1000px;
-    background-color: rgb(15, 15, 59);
+    height: 800px;
+    background: linear-gradient(#1c2541, #004346);
 
 }
 img{

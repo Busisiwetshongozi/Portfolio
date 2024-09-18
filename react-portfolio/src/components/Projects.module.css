@@ -1,0 +1,66 @@
+.image{
+    
+   
+        width: 220px; /* Adjust as needed */
+        height: 250px; /* Maintain aspect ratio */
+border-radius: 2px;
+    margin-left: -10px;
+   margin-top: 70px;
+    
+
+}
+.wrapper {
+    position: relative;           /* Relative positioning for the wrapper */
+  }
+  
+  .heading {
+    position: absolute;           /* Absolute positioning for the heading */
+    top: 20px;                    /* Adjust as needed */
+    left: 50%;                    /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    margin: 0;                    /* Remove default margins */
+    font-size: 2rem; 
+    color: white;             /* Adjust font size as needed */
+  }
+  
+
+  
+
+  
+ 
+  
+  .cardtitle {
+    font-size: 1.25rem;           /* Set font size for title */
+    margin-bottom: 10px;          /* Add space below title */
+  }
+  
+  .cardsubtitle {
+    font-size: 1rem;              
+    color: whitesmoke;            /* Adjust text color */
+  }
+  
+  .cardtext {
+    font-size: 0.875rem;          /* Set font size for text */
+    color: #eee2e2;                  /* Set color for text */
+  }
+
+  .container {
+    display: flex;                /* Enable Flexbox layout */
+    flex-direction: row;          /* Arrange cards in a row */
+    justify-content: center;      /* Center cards horizontally */
+    align-items: center;          /* Center cards vertically */
+    padding: 60px; 
+    height: 800px;                /* Set the height of the container */
+    gap: 20px;                    /* Add space between cards */
+    
+    background: linear-gradient(#1c2541, #004346);           /* Adjust margin-top to leave space for the heading */
+  }
+  .card {
+    border: 1px solid #ddd;       /* Add border for visual separation */
+    border-radius: 8px;           /* Round the corners of the card */
+    padding: 20px;                /* Add padding inside the card */
+    background-color: #233d4d;       /* Set background color */
+    height: 450px;                /* Set height of card */
+    width: 250px; 
+    margin-top: 70px;                /* Set width of card */
+  }
